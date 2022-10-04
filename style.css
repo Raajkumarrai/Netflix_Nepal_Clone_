@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navHome{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(NP-en-20220919-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    margin-top: 0;
+    height: 79vh;
+    width: 100%;
+    /* background-image: url(NP-en-20220919-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+    background-size: cover;
+}
+#navBar{
+    height: 5vh;
+    padding-top: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navHead{
+    color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+#navBtn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-right: 35px;
+    padding: 5px 11px;
+    border-radius: 7px;
+}
+#navBody{
+    text-align: center;
+    color: white;
+    margin: 10.5% 29%;
+}
+#navBodyh1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-stretch:ultra-condensed;
+}
+#navBodyh4 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 12px;
+}
+#navBodyp p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#navBodyForm input{
+    border: none;
+    width: 68%;
+    font-size: 18px;
+    padding: 25px 20px;
+    border-bottom: 1px solid orange;
+}
+#getStartedbtn{
+    border: none;
+    background-color: rgb(197, 3, 3);
+    color: white;
+    font-size: 20px;
+    padding: 23px 45px;
+    padding-bottom: 27px;
+    border: none;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    margin-left: -5px;
+}
+#getStartedbtn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+/* for border blank div */
+
+#blankDiv{
+    height: 1vh;
+    width: 100%;
+    background-color: rgb(48, 41, 41);
+}
+
+/* 2nd section of webpage */
+
+#secondDiv{
+    height: 49vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 5%;
+    position: relative;
+}
+#secondDivHead{
+    width: 25%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20vh;
+    letter-spacing: 1px;
+}
+#secondDivHead h1{
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+#secondDivHead h4{
+    font-size: 21px;
+}
+#secondDivImage img{
+    margin-left: 20px;
+    height: 32vh;
+    width: 120%;
+}
+#videoo{
+    position: absolute;
+    height: 17vh;
+    margin-left: 80vh;
+    margin-bottom: 15px;
+}
+
+/* third div  */
+#absolute{
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    color: black;
+    position: absolute;
+    background-color: aliceblue;
+    margin-left: -58vh;
+    margin-top: 8vh;
+    border: 2px solid rgb(104, 90, 90);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: arial;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+}
+#absolute img{
+    height: 10vh;
+}
+#absoluteHead{
+    margin-left: 20px;
+}
+#absoluteHead h5{
+    padding-top: 5px;
+    color: blue;
+}
+#thirdDivImg{
+    margin-right: 45px;
+}
+#dIcon{
+    margin-left: 9vh;
+    font-size: 20px;
+}
+
+
+#thirdDivImg img{
+    height: 45vh;
+    width: 60vh;
+    margin-right: 20px;
+    position: relative;
+}
+#thirdDiv{
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#thirdDiv2{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.thirdDiv2_1{
+    padding-bottom: 10px;
+}
+
+
+/* forth div section */
+
+#forthDiv{
+    height: 30vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+}
+.forthDivhead{
+    width: 25%;
+    padding-top: 7vh;
+    margin-left: 45vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.forthDivhead h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.forthDivhead h5{
+    font-size: 21px;
+    font-stretch: condensed;
+}
+
+
+/* fifth Div section  */
+
+#fifthDiv{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+#fifthDivImg img{
+    margin-left: 12vh;
+    height: 40vh;
+    width: 50vh;
+    margin-right: 15vh;
+}
+#fifthDivHead{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#fifthDivHead p{
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+/* Questionare div  */
+
+#questionareDiv{
+    height: 95vh;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+}
+#questionareDivHead{
+    padding: 40px;
+    font-size: 25px;
+}
+.questionareDivFlex{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27.5%;
+    margin-top: 15px;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: rgba(78, 75, 83, 0.568);
+}
+.questionareDivFlex:hover{
+    cursor: pointer;
+}
+#doubleUseDivP{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+#doubleUseDiv{
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+
+/* footer section div */
+
+#footer{
+    height: 30vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: rgb(105, 99, 99);
+}
+#footerHead{
+    height: 30vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerTopic p{
+    margin: 15px 40px;
+}
+#first{
+    margin-bottom: 30px;
+}
+#last{
+    margin-top: 40px;
+}
